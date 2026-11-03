@@ -60,11 +60,23 @@
         },
         {
           "version": "0.4.4-grsai.3",
-          "publishTimestamp": 1793714830,
+          "publishTimestamp": 1793715727,
           "source": {
             "type": "git",
             "url": "https://github.com/tacyzo/dsh-image2-plugin",
             "commit": "3e5eb41b819c18772ec17eaff4a74c2252aa93ff"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.4.5-grsai.4",
+          "publishTimestamp": 1793715718,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tacyzo/dsh-image2-plugin",
+            "commit": "7e0e5efb75bd9952530b3ab59e8a31cac12a50f9"
           },
           "engines": {
             "dsh": ">=0.2.1-0 <0.3.0"
