@@ -47,12 +47,12 @@
       },
       "versions": [
         {
-          "version": "0.5.0",
-          "publishTimestamp": 1793716533,
+          "version": "0.5.1",
+          "publishTimestamp": 1793716924,
           "source": {
             "type": "git",
             "url": "https://github.com/tacyzo/dsh-image2-plugin",
-            "commit": "4eda7b917b58561e93ace7e1bb5719cb832c110e"
+            "commit": "7f39e7efcd128f47131bd9a75efb096e9ef28485"
           },
           "engines": {
             "dsh": ">=0.2.1-0 <0.3.0"
