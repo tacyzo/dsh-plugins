@@ -76,7 +76,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/tacyzo/dsh-image2-plugin",
-            "commit": "7e0e5efb75bd9952530b3ab59e8a31cac12a50f9"
+            "commit": "182d832110d5dd1bb37b80afb0798436bee236e9"
           },
           "engines": {
             "dsh": ">=0.2.1-0 <0.3.0"
