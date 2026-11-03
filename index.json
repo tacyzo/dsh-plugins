@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Tacyzo DSH Plugins",
+    "zh": "tacyzo 的 DSH 插件"
+  },
+  "description": {
+    "en": "Custom DeepSeek Harness plugins maintained by tacyzo.",
+    "zh": "tacyzo 维护的定制 DeepSeek Harness 插件。"
+  },
+  "metadata": {
+    "categories": {
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh": "工具"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-image2-tool",
+      "title": {
+        "en": "grsai Image 2",
+        "zh": "grsai 生图"
+      },
+      "description": {
+        "en": "Text-to-image and image-to-image against the grsai native API (POST /v1/api/generate), tuned for gpt-image-2.5: real aspect ratios, a quality knob and inline previews.",
+        "zh": "接 grsai 原生接口（POST /v1/api/generate）的文生图与图生图，针对 gpt-image-2.5 调校：真实比例、quality 开关、图片内联显示。"
+      },
+      "homepage": "https://github.com/tacyzo/dsh-image2-plugin",
+      "repository": {
+        "url": "https://github.com/tacyzo/dsh-image2-plugin"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "image",
+          "grsai",
+          "gpt-image-2.5",
+          "text-to-image",
+          "image-to-image"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.4.3-grsai.2",
+          "publishTimestamp": 1793714260,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tacyzo/dsh-image2-plugin",
+            "commit": "f4650db9471efd8703b65c68d76e65b9abad75f7"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
