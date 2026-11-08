@@ -47,12 +47,12 @@
       },
       "versions": [
         {
-          "version": "0.8.0",
-          "publishTimestamp": 1794153663,
+          "version": "0.8.1",
+          "publishTimestamp": 1794153818,
           "source": {
             "type": "git",
             "url": "https://github.com/tacyzo/dsh-grsai-image",
-            "commit": "13d2844f573aed5f05cbc79249e651beda9c6f21"
+            "commit": "17a1856dc4e5c2cba95f4ddee7e1a3d7959527f2"
           },
           "engines": {
             "dsh": ">=0.2.1-0 <0.3.0"
