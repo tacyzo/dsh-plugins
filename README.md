@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/tacyzo/dsh-plugins/main/index.json
 
 | 包名 | 说明 | 版本 |
 |---|---|---|
-| `dsh-image2-tool` | 接 grsai 原生接口（`POST /v1/api/generate`）的文生图/图生图，针对 `gpt-image-2.5` 调校 | `0.4.3-grsai.2` |
+| `dsh-grsai-image` | 接 grsai 原生接口（`POST /v1/api/generate`）的文生图/图生图，针对 `gpt-image-2.5` 调校 | `0.4.3-grsai.2` |
 
 ## 新增一个插件
 

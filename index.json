@@ -22,18 +22,18 @@
   },
   "plugins": [
     {
-      "name": "dsh-image2-tool",
+      "name": "dsh-grsai-image",
       "title": {
-        "en": "grsai Image 2",
-        "zh": "grsai 生图"
+        "en": "dsh-grsai-image",
+        "zh": "dsh-grsai-image"
       },
       "description": {
         "en": "Text-to-image and image-to-image against the grsai native API (POST /v1/api/generate), tuned for gpt-image-2.5: real aspect ratios, a quality knob and inline previews.",
         "zh": "接 grsai 原生接口（POST /v1/api/generate）的文生图与图生图，针对 gpt-image-2.5 调校：真实比例、quality 开关、图片内联显示。"
       },
-      "homepage": "https://github.com/tacyzo/dsh-image2-plugin",
+      "homepage": "https://github.com/tacyzo/dsh-grsai-image",
       "repository": {
-        "url": "https://github.com/tacyzo/dsh-image2-plugin"
+        "url": "https://github.com/tacyzo/dsh-grsai-image"
       },
       "metadata": {
         "category": "tools",
@@ -47,12 +47,12 @@
       },
       "versions": [
         {
-          "version": "0.5.2",
-          "publishTimestamp": 1793720229,
+          "version": "0.6.1",
+          "publishTimestamp": 1794108039,
           "source": {
             "type": "git",
-            "url": "https://github.com/tacyzo/dsh-image2-plugin",
-            "commit": "2ba2861f6d30eaccecb075714190d3a7d81ae2a6"
+            "url": "https://github.com/tacyzo/dsh-grsai-image",
+            "commit": "3156ade50d9f2bd0bfe4bfa184b9e00432f76bac"
           },
           "engines": {
             "dsh": ">=0.2.1-0 <0.3.0"
